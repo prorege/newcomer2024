@@ -108,7 +108,7 @@ padding: 0;
 }
 
 #location {
-margin-top : 250px;
+margin-top : 180px;
 margin-left : 20px;
 }
 
@@ -1319,7 +1319,7 @@ animation-name: slidein;
   height: auto;
   margin: auto;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 #intro1{
   margin-top: 50%;
