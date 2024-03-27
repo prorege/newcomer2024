@@ -108,25 +108,43 @@ padding: 0;
 }
 
 #location {
-margin-top : 180px;
+margin-top : 0px;
 margin-left : 20px;
 }
 
-#address {
-  padding-top: 165px;
-}
-
-#address2 {
-  margin-top: 80px;
-}
-
 #rect {
-  margin-top: 105px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
 }
 
 #blueman{
-  margin-left: 30px;
-  margin-right: auto;
+  top: 25%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#pinkman{
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#address{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#address2{
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
 }
 
@@ -902,7 +920,7 @@ p {
 .sns-logo {
   width: 100%;
   margin: 0 auto;
-  max-width: 100px;
+  max-width: 150px;
 }
 
 
@@ -1249,15 +1267,18 @@ animation-name: slidein;
 #thisone{
   position:absolute;
 }
+
 .first-part{
   width: 100%;
   
   /* z-index: 1; */
 }
 #first-part{
+  padding-top: 40px;
   height: 480px;
   margin-top:10%;
   margin-bottom:0px;
+  position: relative;
 }
 #shadow{
   margin-top: 100px;
@@ -1269,6 +1290,7 @@ animation-name: slidein;
 #second-part{
   margin-top: 10px;
   height:780px;
+  position: relative;
 }
 
 .second-part{
@@ -1276,19 +1298,37 @@ animation-name: slidein;
   /*width:100%;
   height: 100%;*/
 }
-#third-part{
-  height:240px;
-}
-.third-part{
 
+.smile{
+  top: 23%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.star{
+  top: 57%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.under{
+  top: 68%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#third-part{
+  height: 480px;
+  position: relative;
+  margin-top: 100px;
 }
 #forth-part{
-  height: 240px
+  margin-top: 20px;
+  height: 580px
   
-}
-
-.forth-part{
-
 }
 
 #vertical{
@@ -1308,7 +1348,40 @@ animation-name: slidein;
   margin-top: 300px;
 }
 #title{
-  margin-top: 10px;
+  margin-top: 15px;
+
+}
+
+#character{
+  position: absolute;
+
+}
+.mint{
+  float: left;
+  top: 25%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+}
+
+.yellow{
+  float: right;
+  top: 25%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+}
+
+.gray{
+  float: left;
+  top: 83.5%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+}
+
+.green{
+  float: right;
+  top: 81.5%;
+  left: 86%;
+  transform: translate(-50%, -50%);
 }
 #year{
   margin-top: 20px;
@@ -1329,6 +1402,9 @@ animation-name: slidein;
 #intro{
   margin-top: 150px;
   margin-bottom: 150px;
+}
+#intro3{
+  margin-top: 150px;
 }
 #information{
   display: flex;
@@ -1417,13 +1493,18 @@ animation-name: slidein;
   margin: auto;
 }
 
+.width-65{
+  width: 65%;
+  margin: auto;
+}
+
 .width-70{
   width: 70%;
   margin: auto;
 }
 
 .width-60{
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -1439,6 +1520,11 @@ animation-name: slidein;
 
 .width-20{
   width: 20%;
+  margin: auto;
+}
+
+.width-15{
+  width: 15%;
   margin: auto;
 }
 
@@ -1472,4 +1558,7 @@ animation-name: slidein;
 
 #2ndmain{
   height: 100%;
+}
+.margin-30{
+  margin-top: 0px;
 }
